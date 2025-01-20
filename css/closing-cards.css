@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-width: 20%;
+  max-width: 20%;
+  min-height: 100px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  background-size: cover;
+  color: white;
+  font-weight: 400;
+}
+
+
+.cards h3 {
+  background-color: rgba(80, 80, 80, 0.48);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.cards p {
+  background-color: rgba(80, 80, 80, 0.48);
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.header-and-closer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.gon {
+  background-image: url('../images/closing-cards/gon.jpg');
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.killua {
+  background-image: url('../images/closing-cards/Killua.jpg');
+}
+
+.illumi {
+  background-image: url('../images/closing-cards/illumi.jpg');
+}
+
+.kurapika {
+  background-image: url('../images/closing-cards/kurapika.jpg');
+}
+
+.leorio {
+  background-image: url('../images/closing-cards/leorio.jpg');
+}
+
+.hisoka {
+  background-image: url('../images/closing-cards/hisoka.jpg');
+}
+
+.lucifer {
+  background-image: url('../images/closing-cards/lucifer.jpg');
+} 
+
+.meruem {
+  background-image: url('../images/closing-cards/meruem.jpg');
+}
+
+.lucifer {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}

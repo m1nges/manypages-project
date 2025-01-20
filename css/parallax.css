@@ -1,0 +1,59 @@
+body,
+html {
+  height: 100%;
+  margin: 0; 
+}
+
+.parallax {
+  /* Путь к вашему изображению */
+  background-image: url('../images/parallax/wallpaperflare.com_wallpaper.jpg');
+  /* Установка высоты фонового изображения */
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  /* Создание параллакс эффекта */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax-container {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+ .parallax-interactive {
+  background-image: url('../images/main/fs.photo.jpg');
+  left: -200px;
+  bottom: -130px;
+  width: 130%;
+  height: 150vh;
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 80px auto;
+  transition: all 0.1s ease;
+  padding: 0;
+}
+
+.content-intercative {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

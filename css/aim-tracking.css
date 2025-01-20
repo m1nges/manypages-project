@@ -1,0 +1,63 @@
+main {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: margin 0.5s ease;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#time {
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.primary {
+  color: #fff;
+}
+
+#board {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: black;
+}
+
+.time-btn {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.up {
+  margin-top: -100vh;
+}
+
+.resetGameBtn {
+  color: black;
+  background-color: white;
+}
+
+.circle {
+  position: absolute;
+  background-image: url('../images/aim/fd312a1bbcbb11738e2e866b141eeaf1.jpg');
+  border-radius: 50%;
+  background-size: cover;
+}
